@@ -1,0 +1,194 @@
+body{
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+#page{
+  max-width: 1200px;
+  margin:0 auto;
+  position:relative;
+}
+/* text*/
+h1{
+  margin:0 0 1em 0;
+  font-size: 2.8em;
+  font-weight: 700;
+}
+h2{
+  margin:0 0 .5em 0;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+h3{
+  margin:0 0 .5em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+h4{
+  margin:0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+
+p{
+  margin:0 0 1em 0;
+}
+a{
+  color:#007eff;
+}
+a:visited{
+  color: #1fd0e0;
+}
+
+/*header*/
+header{
+  height: 130px;
+  position: relative;
+}
+header a.logo{
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width:160px;
+  height:66px;
+  background:url(TCMC98Neg.jpg) no-repeat 0 0;
+  background-size: contain;
+  top: 15px;
+  left:20px;
+}
+header a.logo span{
+  display: none;
+}
+header div.hero{
+position: absolute;
+width:42%;
+top:130px;
+left: 55%;
+}
+header div.hero h1{
+  line-height: 1em;
+  margin:80px 0px 0px 0;
+  color:#fff;
+}
+nav{
+  background-color: rgba(0,0,0,.90);
+  position:absolute;
+  top:0px;
+  left:0px;
+  padding:65px 0 0 0;
+  width: 100%;
+}
+nav::after{
+  content:'';
+  display: block;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding:0px;
+}
+nav ul li:hover{
+  background-color: #2b0306;
+}
+nav ul li:hover > ul {
+  display: block;
+
+}
+nav ul li a{
+  display:inline-inline-block;
+  color: #ffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  width: 160px;
+  position: relative;
+}
+nav ul li a:visited{color: #fff;}
+
+nav ul li a:hover{background-color: #6d0911;}
+
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: #2b0306;
+  display: none;
+}
+
+nav ul ul li{
+  position: relative;
+}
+nav ul ul ul {
+  left: 100%;
+  top: 0px;
+}
+
+
+/*top-level*/
+nav>ul{
+  padding-left:200px;
+}
+nav > ul >li{
+  float:left;
+}
+nav>ul>li>a{
+  width: auto;
+  padding: 10px 20px 15px 10px
+}
+/*footer*/
+footer{
+
+  background-color: #fff;
+  font-size: .8em;
+  margin: 40px;
+  color:#999;
+  padding: 0px 0px;
+}
+footer .content{
+  display: inline;
+}
+footer a{
+  margin-left: 20px;
+  color:#777;
+}
+footer a:visited{
+  color:#777;
+}
+footer a:hover{color: #000;}
+
+/*Sign up*/
+form.signup label.width{
+  display: block;
+  width:240px;
+  float:left;
+  color: #fff;
+}
+form.signup input{
+  border: 3px solid black;
+}
+form.signup .button input{
+  float: right;
+  color: #fff;
+  background-color: #0a6824;
+  font-size: 30px;
+  margin: 0 450px 50px 0;
+  border: solid 2px #ffff;
+  border-radius: 50px;
+  padding: 10px 40px;
+}
+form.signup .button input:hover{
+  color: #000;
+  background-color: #87f2a5;
+}
+section.offer {
+  background-color:#000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:#fff;
+}
+section.offer article{
+  padding: 30px;
+  margin: 20px;
+}
