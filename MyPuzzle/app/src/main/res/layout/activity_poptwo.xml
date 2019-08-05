@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".poptwoActivity">
+
+    <Button
+        android:id="@+id/btnpop0"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:background="@drawable/pop0"
+        android:onClick="on_click_image"
+        app:layout_constraintEnd_toStartOf="@+id/btnpop1"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnpop1" />
+
+    <Button
+        android:id="@+id/btnpop1"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/pop1"
+        android:onClick="on_click_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnpop0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnpop2"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:background="@drawable/pop2"
+        android:onClick="on_click_image"
+        app:layout_constraintEnd_toStartOf="@+id/btnpop3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnpop3" />
+
+    <Button
+        android:id="@+id/btnpop3"
+        android:layout_width="110dp"
+        android:layout_height="125dp"
+        android:background="@drawable/pop3"
+        android:onClick="on_click_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnpop2"
+        app:layout_constraintTop_toBottomOf="@+id/btnpop1" />
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnpop2" />
+    <Button
+        android:id="@+id/Statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="396dp"
+        android:layout_marginBottom="32dp"
+        android:onClick="onStatistics"
+        android:text="Back"
+        android:background="@drawable/btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
