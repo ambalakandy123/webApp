@@ -84,7 +84,7 @@ public class donaldthreeActivity extends AppCompatActivity {
                     BUTTON_NAME_PREFIX + Integer.toString(i), "id", this.getPackageName()));
         }
         //first puzzle
-        play_game(5, "s");
+        play_game(5, "mc");
 
     }
 
@@ -239,7 +239,7 @@ public class donaldthreeActivity extends AppCompatActivity {
         String MessageText = intent.getStringExtra("playername");
 
 
-        myDB.insertPlayer(MessageText, 70, 1, "c");
+        myDB.insertPlayer(MessageText, 70, 1, "d");
 
 
         Cursor cursor = myDB.getAllPlayers();
