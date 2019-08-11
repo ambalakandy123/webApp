@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8828EBF5-75F5-FA19-3E29-8BE968C29038" name="Ticket_Type">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:15:11 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="t_type_id" id="EFA6FA55-B1D3-1CC8-242B-7FAC53200061">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:15:29 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_type" id="803DFB1A-F426-649F-DE53-3D8687CB5DEE">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:16:00 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_type_price" id="27CF1B6A-3F14-49D6-AE89-D2DC8F1E674B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:16:39 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_type_start_date" id="297C9409-2BDC-0E9F-987F-4C998AFF7292">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:17:20 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_type_start_date_1" id="958527FB-2114-DD5D-AA32-144342C03B90">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:18:03 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="t_type_end_date" id="6D91E93F-75EE-751F-76FC-92842B66D358">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:18:43 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="screening_id" id="C0D7DBDD-B294-F530-EE07-2FACB0A00C52">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 04:17:23 UTC</createdTime>
+<generatorID>47C1C0CE-5042-9608-590E-99B069D398D1</generatorID>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<referedAttribute>C19CDB28-21B6-20A0-2351-C5BD51C33BBC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1AD33A1D-6069-AC1A-A894-1EED9A7497B6" name="Ticket_Type PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:15:53 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EFA6FA55-B1D3-1CC8-242B-7FAC53200061</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C0DE33A-CE7A-69E7-A953-0BED73B2CE41" name="Screening_plan">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>C4B0F37B-1D11-8CC1-9D45-8BF6B982293B</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="plan_id" id="4E534799-884D-2F65-DCBF-4EEAED8301E7">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>86FDAC12-A2C8-791E-C2E8-82A9753942B6</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_start_date" id="A2AD70DA-3811-1E8B-B24D-EFB986E8202B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>48755664-05B9-7AD0-BBBE-169FE69DB18A</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_end_date" id="1AE659D6-3AE3-9E20-AFAF-2131D4C35931">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>D7F7D062-0DED-C9F3-E5A3-1F512F824AB0</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plam_min_start_hh24" id="5F205ED5-21AF-5E35-36D3-3DA747285F0A">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment>The earliest time to start screening&lt;br/&gt;</comment>
+<generatorID>83EBA711-6D00-90BF-89D5-39A8F2572A0A</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_max_start_hh24" id="6BB292ED-0FFA-8A58-C55C-515A6676F1F6">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment>The latest time to start screening</comment>
+<generatorID>05B5A57F-CEEC-1ACD-1192-3FFCF897644E</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_no_of_screenings" id="0B970351-096F-45C9-7A0A-DA6A64E5371B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment>The number of screenings per day of&lt;br/&gt;the movie</comment>
+<generatorID>93F37AA0-B1A5-1F52-C0AD-8F1063493DAA</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_id" id="3C5A1823-4315-041D-9C00-69DE513E2ECB">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment>Foreign key to the entity Movie&lt;br/&gt;</comment>
+<generatorID>0F9A64FD-6B8E-75D9-2DE4-8CCC00532266</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A53E60B-8809-1BEC-7174-EF087D230245" referredColumn="7303298D-0FC9-7D7F-CB93-237CF66C8542"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB0E51FE-CE46-DC57-5472-7870457B7164" name="Screening_plan_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>A5AFACA6-6196-3A3E-829E-8D0DE6EDD673</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E534799-884D-2F65-DCBF-4EEAED8301E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4FCD34A-2F8E-713E-23A4-C6CCE1D84B72" name="Screening_plan_Movie_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>8568ADE1-E551-397B-EA9A-B4C068D27208</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C5A1823-4315-041D-9C00-69DE513E2ECB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EE407008-0C8F-9382-1815-E3C3B2BF248F" name="Employee">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:22:09 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="e_id" id="60DB766E-E948-3BB2-F2FF-113834981B93">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:22:22 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_fname" id="399AF170-B2DE-B700-8A80-B3646B636668">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:23:17 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_lname" id="95A9159E-EE1A-5636-D037-63376E91E1CE">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:24:24 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_email" id="174FFBD5-63DE-E1C0-3BC4-09E6B73B3861">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:25:50 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_phone" id="2D123A1F-6A23-F2E0-3FEC-FA8D94FBC818">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:26:42 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_street" id="C5B54227-42B0-5496-4320-90C154BCC739">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:27:25 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_suburb" id="DB0973A3-6F7C-EB90-68FD-5DB0C934E494">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:28:03 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_postcode" id="41E0D2FE-7D07-A998-4FF1-43046B55C066">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:28:55 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="e_gender" id="06FBDC47-8264-F023-EC86-5D1912F9F8AA">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:29:24 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_employed" id="F803FEF9-8544-1B95-F211-C624C7A14DBD">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:29:57 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="99A6080D-CD98-5686-D6AD-00D2DF2237EF" name="Employee PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:23:09 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>60DB766E-E948-3BB2-F2FF-113834981B93</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

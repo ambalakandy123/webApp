@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7655FDB1-7231-678B-AE5B-74A2F1A2D9FF" name="Employee">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>EE407008-0C8F-9382-1815-E3C3B2BF248F</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="e_id" id="F622E5F2-4125-DFFF-0BE3-3B05753786B5">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>60DB766E-E948-3BB2-F2FF-113834981B93</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_fname" id="86709258-60D2-837D-F4F0-CBCC71E37E7B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>399AF170-B2DE-B700-8A80-B3646B636668</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_lname" id="AF71EE9A-0AAA-CCA0-AF61-B5C2679055A8">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>95A9159E-EE1A-5636-D037-63376E91E1CE</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_email" id="92E13744-DC41-275C-6D00-A62ED6FC0965">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>174FFBD5-63DE-E1C0-3BC4-09E6B73B3861</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_phone" id="E32626AF-20B3-607F-AAFD-C37FE55FE5F2">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>2D123A1F-6A23-F2E0-3FEC-FA8D94FBC818</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_street" id="8E096127-FCEA-BA35-6497-F7F0C98DB84B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>C5B54227-42B0-5496-4320-90C154BCC739</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_suburb" id="313E70AC-7A23-24E2-A11C-280A1EDD2946">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>DB0973A3-6F7C-EB90-68FD-5DB0C934E494</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_postcode" id="E9273324-C120-A9E6-A7C9-F7A72AF13974">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>41E0D2FE-7D07-A998-4FF1-43046B55C066</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="e_gender" id="1A527695-5BEC-9830-059D-6D4A0499FB55">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>06FBDC47-8264-F023-EC86-5D1912F9F8AA</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_employed" id="4D4ACC51-A99F-7FAD-93EF-3C1CD208E5AD">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>F803FEF9-8544-1B95-F211-C624C7A14DBD</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A07A98B0-56D1-C5B6-6C87-09DFE2DA4762" name="Employee_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>99A6080D-CD98-5686-D6AD-00D2DF2237EF</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F622E5F2-4125-DFFF-0BE3-3B05753786B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

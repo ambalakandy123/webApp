@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ADB15E8A-90AF-E1D9-3BD0-A99EC8136EEE" name="Theatere_Row">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:49:46 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="row_id " id="F177BF81-9C31-101C-AFE4-412D28B43187">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:50:10 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="row_name" id="778322F8-F621-F32D-E351-83ED386040F1">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:50:36 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="row_total_seats" id="100C4062-2EFF-96E5-0BAF-6844072A3F42">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:51:16 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="theatre_id" id="C6F5A14B-AEFC-F366-3909-08B08D469D76">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:53:36 UTC</createdTime>
+<generatorID>4F7FF908-DF1B-C586-C463-4BBBAE94DD91</generatorID>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<referedAttribute>5920E357-6A21-90B9-1CD5-95ED90BBCBC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69E22039-D8B0-0CE2-E94F-40F78475505B" name="Theatere_Row PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:50:32 UTC</createdTime>
+<ownerDesignName>scm_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F177BF81-9C31-101C-AFE4-412D28B43187</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

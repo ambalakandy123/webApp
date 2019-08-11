@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A53E60B-8809-1BEC-7174-EF087D230245" containerWithKeyObject="2C0DE33A-CE7A-69E7-A953-0BED73B2CE41" localFKIndex="A4FCD34A-2F8E-713E-23A4-C6CCE1D84B72" name="Screening_plan_Movie_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>8568ADE1-E551-397B-EA9A-B4C068D27208</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<referredTableLongName>Movie</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7F4A9006-8545-0E84-7F55-CAE54715AE82</referredTableID>
+<keyObject>49FC0E80-EB08-1FB4-D22F-67A73100559E</keyObject>
+<referredKeyID>49FC0E80-EB08-1FB4-D22F-67A73100559E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>movie_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

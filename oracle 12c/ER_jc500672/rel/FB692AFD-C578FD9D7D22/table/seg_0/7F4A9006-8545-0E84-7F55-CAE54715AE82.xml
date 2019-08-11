@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F4A9006-8545-0E84-7F55-CAE54715AE82" name="Movie">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>97EFC354-BF4C-0957-225E-9F5091F26F73</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="movie_id" id="7303298D-0FC9-7D7F-CB93-237CF66C8542">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>2632D364-C8EA-9A97-40E8-131BD95C920E</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Movie_title" id="AE1D8097-5FC2-0235-EC53-7DD0BB11182F">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>72144804-FF98-9BD5-770D-F393489133C6</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_rating" id="E807D399-EBCD-EC26-7D9D-D4896C78FC98">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>1ACDF890-6006-D1D5-A8A1-AAAF39AD6EED</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_released_date" id="28264D8A-DE81-7D96-A1A1-28C582DDC1C6">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>87F6C171-8B00-194F-6837-B939350376E6</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_description" id="5EB0BB12-6B32-786E-37FD-9E880B37BB44">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>EBEC984C-4008-6F06-04DE-6EDB403D04B2</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="movie_length" id="17A32A20-B759-4D70-C375-EBEBA378073B">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment> length is measured by minutes</comment>
+<generatorID>9BBC7B30-C3AC-2DBF-FD07-7CAA4EFE4CE3</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49FC0E80-EB08-1FB4-D22F-67A73100559E" name="Movie_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>133E1206-6945-5FFD-A982-4D9A1D621EAB</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7303298D-0FC9-7D7F-CB93-237CF66C8542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

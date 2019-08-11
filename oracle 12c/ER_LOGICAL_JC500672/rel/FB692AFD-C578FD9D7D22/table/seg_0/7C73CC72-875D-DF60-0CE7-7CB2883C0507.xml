@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C73CC72-875D-DF60-0CE7-7CB2883C0507" name="Ticket_Type">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>8828EBF5-75F5-FA19-3E29-8BE968C29038</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="t_type_id" id="B05625F3-8669-5C64-4E27-B0FC35C3BF2E">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>EFA6FA55-B1D3-1CC8-242B-7FAC53200061</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_type" id="9546644D-0142-5541-539F-9C258441E0CB">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>803DFB1A-F426-649F-DE53-3D8687CB5DEE</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_type_price" id="57C59A76-D726-0F39-C445-49078F45849F">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>27CF1B6A-3F14-49D6-AE89-D2DC8F1E674B</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_type_start_date" id="3988E422-B830-466D-ADB3-CC8020FC528D">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>958527FB-2114-DD5D-AA32-144342C03B90</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="t_type_end_date" id="20F20522-716B-8418-2EAB-ABB438FBA5AC">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>6D91E93F-75EE-751F-76FC-92842B66D358</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DB551A73-346A-E556-F7AC-6B488620ED37" name="Ticket_Type_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>1AD33A1D-6069-AC1A-A894-1EED9A7497B6</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B05625F3-8669-5C64-4E27-B0FC35C3BF2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDDEA2FD-A04D-9FD1-4B87-EAB91714A5B0" name="Theatre">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>7184D3E4-5B16-9DB7-C998-8BCA16D70AE2</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="theatre_id" id="E33A89D6-0FAD-F753-AAF7-AFF2B5C528CC">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>5920E357-6A21-90B9-1CD5-95ED90BBCBC5</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="theater_description" id="9D11E99F-385A-FB07-FA96-C6DAEB13F28A">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>B01E7465-55C3-15D1-386B-15F356CEC329</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="theatre_total_rows" id="4AD4A21F-7130-2E5E-1D39-B4A12CEF8696">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>A23A55AC-8372-6574-50A0-6D002BED66EF</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CED3F5FB-5B64-E9D1-61A6-3435C7021846" name="Theatre_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>A857CBB3-F7F5-8DE1-FF95-CE5A6EF931E0</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E33A89D6-0FAD-F753-AAF7-AFF2B5C528CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

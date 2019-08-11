@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="45ACF581-F510-DE6F-69EF-8AAB5F53BFAE">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:31:39 UTC</createdTime>
+<ownerDesignName>ERtask2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

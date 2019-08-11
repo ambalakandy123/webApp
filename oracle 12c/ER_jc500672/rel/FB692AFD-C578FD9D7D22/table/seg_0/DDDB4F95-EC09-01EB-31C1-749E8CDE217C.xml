@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDDB4F95-EC09-01EB-31C1-749E8CDE217C" name="Seat">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>6FF8AEF7-AD92-E1F0-2D51-2B9CD19ED13C</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="seat_id" id="E854B5F5-6B96-28B3-A3D2-5FF30EF25B9A">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>61AF4B58-4CBE-E83A-521B-0C84B3630CC1</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_number" id="8F9A7218-1FC8-7135-A754-E077CB98DCC6">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>C1DE7899-B2BB-B8C6-C9FB-6ADEF204B606</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="row_id" id="A1DD0EE7-F1B0-1E2D-105C-055CD3FA640D">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<comment>Foreign key to the entity Row</comment>
+<generatorID>A2C5F331-C5C0-3F12-501F-CC4DC8F187E6</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E8AC10A-7FDA-7419-B76D-2F3F1D6031F1" referredColumn="78EFD8B7-5E84-9698-AB7A-4DEFF4438A30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C329544-455F-D763-0F79-50B92075507C" name="Seat_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>5B8A70C3-2B6A-3867-8E03-8DA0FA3583A6</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E854B5F5-6B96-28B3-A3D2-5FF30EF25B9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC5965A7-0F85-A025-1BC0-950ACCC8E3B7" name="Seat_Theatere_Row_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:54:18 UTC</createdTime>
+<generatorID>69BEB73B-5BF4-6B28-C9AC-A837AFEE0F30</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1DD0EE7-F1B0-1E2D-105C-055CD3FA640D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="ER_jc500672_scm" id="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" mainViewID="6E952B1C-B8F9-8619-FE33-B00992D54521">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:31:39 UTC</createdTime>
+<ownerDesignName>ERtask2</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+</relationalModel>

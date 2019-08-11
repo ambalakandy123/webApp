@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="29C5C8E2-0BBF-A404-E295-6E143C9F87F5" name="Screening">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:11:28 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="screening_id" id="C19CDB28-21B6-20A0-2351-C5BD51C33BBC">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:11:46 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="screening_date" id="B47F6765-94C1-5C74-0C8C-46B7F550356F">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:12:26 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="screening_start_hh24" id="E2361A61-E47B-9FD3-98AB-4F50AC635766">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:12:58 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="screening_start_mm60" id="BD77DA64-171F-FCD2-A377-31171C7D5999">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:13:40 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plan_id" id="FBE70776-C033-C88A-56CF-11B4BD6E4084">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 04:14:42 UTC</createdTime>
+<comment>Foreign key to the entity&lt;br/&gt;Screening_Plan</comment>
+<generatorID>FEF54DF2-AB22-0641-D1F1-0BF2550249B5</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<referedAttribute>86FDAC12-A2C8-791E-C2E8-82A9753942B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="theatre_id" id="94A59AD2-E425-8D73-71ED-F0D4F89C7081">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:24:49 UTC</createdTime>
+<comment> Foreign key to the entity Theatre</comment>
+<generatorID>8D512A35-5B1E-CFCB-A08A-3EFACD874CD4</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<referedAttribute>5920E357-6A21-90B9-1CD5-95ED90BBCBC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B715EF1B-8C80-F598-971A-643ABD6033D7" name="Screening PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 06:12:07 UTC</createdTime>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C19CDB28-21B6-20A0-2351-C5BD51C33BBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

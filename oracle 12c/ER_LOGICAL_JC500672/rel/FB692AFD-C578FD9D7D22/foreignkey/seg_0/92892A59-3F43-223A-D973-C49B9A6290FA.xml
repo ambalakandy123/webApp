@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="92892A59-3F43-223A-D973-C49B9A6290FA" containerWithKeyObject="9B278879-580B-642D-936C-394289A2C905" localFKIndex="FE3476B3-C037-3271-EB96-4BF778A520A6" name="Screening_Theatre_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>8D512A35-5B1E-CFCB-A08A-3EFACD874CD4</generatorID>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<referredTableLongName>Theatre</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FDDEA2FD-A04D-9FD1-4B87-EAB91714A5B0</referredTableID>
+<keyObject>CED3F5FB-5B64-E9D1-61A6-3435C7021846</keyObject>
+<referredKeyID>CED3F5FB-5B64-E9D1-61A6-3435C7021846</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>theatre_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

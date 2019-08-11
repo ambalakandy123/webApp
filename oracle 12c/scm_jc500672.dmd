@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="scm_jc500672" id="C03B792B-1790-7ED3-BC02-8E54EC98D2FA" version="3.5">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 04:31:38 UTC</createdTime>
+<ownerDesignName>ERtask2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C03B792B-1790-7ED3-BC02-8E54EC98D2FA</designId>
+</OSDM_Design>

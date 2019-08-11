@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="97EFC354-BF4C-0957-225E-9F5091F26F73" name="Movie">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:45:58 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="movie_id" id="2632D364-C8EA-9A97-40E8-131BD95C920E">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:46:46 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Movie_title" id="72144804-FF98-9BD5-770D-F393489133C6">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:47:09 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_rating" id="1ACDF890-6006-D1D5-A8A1-AAAF39AD6EED">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:47:42 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_released_date" id="87F6C171-8B00-194F-6837-B939350376E6">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:48:16 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_description " id="EBEC984C-4008-6F06-04DE-6EDB403D04B2">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:48:56 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="movie_length " id="9BBC7B30-C3AC-2DBF-FD07-7CAA4EFE4CE3">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:49:41 UTC</createdTime>
+<comment> length is measured by minutes</comment>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="133E1206-6945-5FFD-A982-4D9A1D621EAB" name="Movie PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-08 05:47:06 UTC</createdTime>
+<ownerDesignName>ER_LOGICAL_JC500672</ownerDesignName>
+<engineerTo>
+<item key="FB692AFD-72D1-ADFE-56A4-C578FD9D7D22" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2632D364-C8EA-9A97-40E8-131BD95C920E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

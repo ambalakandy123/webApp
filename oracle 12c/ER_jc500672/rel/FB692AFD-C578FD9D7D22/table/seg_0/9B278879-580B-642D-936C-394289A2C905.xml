@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B278879-580B-642D-936C-394289A2C905" name="Screening">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>29C5C8E2-0BBF-A404-E295-6E143C9F87F5</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="screening_id" id="F710BDA7-D756-5F2D-C522-06A38CF6360E">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>C19CDB28-21B6-20A0-2351-C5BD51C33BBC</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="screening_date" id="B27E5D03-1255-75E8-F65F-25BA8D206059">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>B47F6765-94C1-5C74-0C8C-46B7F550356F</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="screening_start_hh24" id="AEF0889B-51B4-BF45-9D75-1FBF6C6D9BE3">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>E2361A61-E47B-9FD3-98AB-4F50AC635766</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="screening_start_mm60" id="0EED422F-50D5-BDE6-F26E-C04E83F7001C">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>BD77DA64-171F-FCD2-A377-31171C7D5999</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="plan_id" id="049F8357-C7E7-02AD-DE3F-43F63E801763">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment>Foreign key to the entity&lt;br/&gt;Screening_Plan</comment>
+<generatorID>FBE70776-C033-C88A-56CF-11B4BD6E4084</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD6A0401-FFED-15E0-220E-5C99BB5735D4" referredColumn="4E534799-884D-2F65-DCBF-4EEAED8301E7"/>
+</associations>
+</Column>
+<Column name="theatre_id" id="7AAC788E-FA70-DA66-153F-FF56751263BB">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<comment> Foreign key to the entity Theatre</comment>
+<generatorID>94A59AD2-E425-8D73-71ED-F0D4F89C7081</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92892A59-3F43-223A-D973-C49B9A6290FA" referredColumn="E33A89D6-0FAD-F753-AAF7-AFF2B5C528CC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6D9B82C9-9A64-0C61-EF96-F1ECECE6DB5C" name="Screening_PK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>B715EF1B-8C80-F598-971A-643ABD6033D7</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F710BDA7-D756-5F2D-C522-06A38CF6360E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE3476B3-C037-3271-EB96-4BF778A520A6" name="Screening_Theatre_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>8D512A35-5B1E-CFCB-A08A-3EFACD874CD4</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AAC788E-FA70-DA66-153F-FF56751263BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFBE448D-8D8E-D77E-F429-F6ADFF81E4E5" name="Screening_Screening_plan_FK">
+<createdBy>jc500672</createdBy>
+<createdTime>2019-08-10 05:53:05 UTC</createdTime>
+<generatorID>FEF54DF2-AB22-0641-D1F1-0BF2550249B5</generatorID>
+<ownerDesignName>ER_jc500672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049F8357-C7E7-02AD-DE3F-43F63E801763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
